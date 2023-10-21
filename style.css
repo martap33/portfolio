@@ -1,0 +1,117 @@
+*{
+margin: 0;
+
+}
+
+:root {
+    --grey1: #E8E8E8;
+    --header-green: #0aa087;
+    --dark-green: #035a63;
+    --light-green: #e8fff7;
+}
+
+
+body {
+    font-family: OPen Sans, Arial;
+    font-size: x-small;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  h2{
+color: var(--header-green);
+  }
+
+    .main-container {
+        width: 900px;
+        height: 100%;
+        /*background-color: var(--grey1);*/
+        display: flex;
+        flex-direction: column;
+
+  }
+
+        .mainhead {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            background-color: var(--dark-green);
+        }
+
+            .name {
+                width: 40%;
+                padding: 6%;
+                background-color: var(--light-green);
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                
+
+            }
+
+            .pic {
+                width: 60%;
+                padding: 6%;
+                background-color: var(--dark-green);
+                display: flex;
+                justify-content: center;
+                /*text-align: center;*/
+                margin: auto;
+              
+               
+
+            }
+
+                .pic img {
+                    width: 80%;
+                    
+
+                }
+
+            .info-content {
+                padding: 6%;
+            
+            }
+
+        .box-container {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+        }
+
+            .box {
+                border: solid 2px var(--header-green);
+                border-radius: 3px;
+                width: 255px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding: 15px;
+
+
+            }
+
+                .box button {
+                    background-color: var(--dark-green);
+                    border: none;
+                    border-radius: 30px;
+                    color: #ffffff;
+                    padding: 7px 20px;
+                    cursor: pointer;
+                    margin-top:auto 0;
+                    
+                    
+                }
+
+                .box img {
+                    width: 25%;
+
+                }
+                .item4 {
+
+                    margin-top: auto;
+                }
