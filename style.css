@@ -1,5 +1,6 @@
 *{
 margin: 0;
+padding: 0;
 
 }
 
@@ -100,7 +101,7 @@ color: var(--header-green);
             }
 
                 .box button {
-                    background-color: var(--dark-green);
+                    background-color: var(--header-green);
                     border: none;
                     border-radius: 30px;
                     color: #ffffff;
